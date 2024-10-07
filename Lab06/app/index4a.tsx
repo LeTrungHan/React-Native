@@ -1,14 +1,12 @@
 import React from "react";
+import { View } from "react-native";
 import Screen1 from "@/components/layout/Screen1/screen1";
-import { View } from "react-native-reanimated/lib/typescript/Animated";
 
-export default function index4a() {
-
+export default function Index4a() {
     return (
-        
         <View>
-            screen1
+            <Screen1 />
         </View>
     );
-}   
+}
 
